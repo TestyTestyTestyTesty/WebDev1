@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 .container-fluid{
     background-image: url(https://preview.ibb.co/m4EC3a/background.png);
     background-size: cover;
