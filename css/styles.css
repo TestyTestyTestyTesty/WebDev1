@@ -1,0 +1,131 @@
+.container-fluid{
+    background-image: url(https://preview.ibb.co/m4EC3a/background.png);
+    background-size: cover;
+    padding-bottom: 100px;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+@media (min-width: 1170px) {
+    #sendEmail{
+        margin-top: -120px ;
+}
+}
+form{
+    padding: 10px;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgba(43, 1, 0, 0.75);
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+.logo{
+    padding-top: 5%;
+    opacity: 0.5;
+}
+#link{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+#check{
+    margin:0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#location{
+    padding-bottom:0;
+}
+.form-control{
+    height:42px;
+    padding-left: 20px;
+    background: #f5f5f5;
+    font-size:15px;
+}
+.form-group{
+    padding: 10px 10px 0 10px;
+}
+.input-group{
+    padding: 11px 10px;
+}
+.input-group-addon{
+    background: #f5f5f5;
+    padding: 8px 16px;
+    color: #dedede;
+    font-size: 20px;
+}
+.shadow{
+    padding: 22px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.checkbox{
+    color: #afafaf;
+    font-size: 17px;
+}
+.przycisk {
+  background: #a3d840;
+  background-image: -webkit-linear-gradient(top, #a3d840, #7fc41f);
+  background-image: -moz-linear-gradient(top, #a3d840, #7fc41f);
+  background-image: -ms-linear-gradient(top, #a3d840, #7fc41f);
+  background-image: -o-linear-gradient(top, #a3d840, #7fc41f);
+  background-image: linear-gradient(to bottom, #a3d840, #7fc41f);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 1px 1px 4px #666666;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
+  border: solid #5e850f 1px;
+  text-decoration: none;
+}
+
+.przycisk:hover {
+  background: #98c73b;
+  background-image: -webkit-linear-gradient(top, #98c73b, #72b01c);
+  background-image: -moz-linear-gradient(top, #98c73b, #72b01c);
+  background-image: -ms-linear-gradient(top, #98c73b, #72b01c);
+  background-image: -o-linear-gradient(top, #98c73b, #72b01c);
+  background-image: linear-gradient(to bottom, #98c73b, #72b01c);
+  text-decoration: none;
+  color:#fff;
+}
+.btn-danger {
+  background: #f76f7f;
+  background-image: -webkit-linear-gradient(top, #f76f7f, #f03746);
+  background-image: -moz-linear-gradient(top, #f76f7f, #f03746);
+  background-image: -ms-linear-gradient(top, #f76f7f, #f03746);
+  background-image: -o-linear-gradient(top, #f76f7f, #f03746);
+  background-image: linear-gradient(to bottom, #f76f7f, #f03746);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 1px 1px 4px #666666;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 5px 10px 5px;
+  border: solid #a72c36 1px;
+  text-decoration: none;
+}
+
+.btn-danger:hover {
+    background: #e8697a;
+    background-image: -webkit-linear-gradient(top, #e8697a, #d93240);
+    background-image: -moz-linear-gradient(top, #e8697a, #d93240);
+    background-image: -ms-linear-gradient(top, #e8697a, #d93240);
+    background-image: -o-linear-gradient(top, #e8697a, #d93240);
+    background-image: linear-gradient(to bottom, #e8697a, #d93240);
+    text-decoration: none;
+}
+.Send{
+    padding: 0 10px 10px;
+}
+
+.padding-buttons{
+    padding-top:13px;
+}

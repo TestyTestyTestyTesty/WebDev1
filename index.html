@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weekly WebDev 1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  </head>
+  <body>
+      <div class="container-fluid">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 logo">
+                    <img src="images/logo.png" alt="Logo" class="img-responsive center-block">
+                </div>
+            </div>
+                <div class="row">
+                    <div id="registerForm" class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                        <h3>Register Form</h3>
+                        <div class="shadow">
+                            <form>
+
+                                  <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input id="Username" type="text" class="form-control" name="username" placeholder="Username">
+                                  </div>
+
+                                  <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-lock"></i></span>
+                                    <input id="Password" type="password" class="form-control" name="password" placeholder="Password">
+                                  </div>
+
+                                  <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-lock"></i></span>
+                                    <input id="ConfirmPassword" type="password" class="form-control" name="confirmPassword" placeholder="Confirm password">
+                                  </div>
+
+                                  <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                    <input id="Email" type="email" class="form-control" name="email" placeholder="Email">
+                                  </div>
+
+                                  <div id="location" class="input-group">
+                                      <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+                                      <select class="form-control">
+                                      <option value="" disabled selected>Location</option>
+                                      <option>Poland</option>
+                                      <option>Germany</option>
+                                      <option>Sweden</option>
+                                      <option>England</option>
+                                      <option>Norway</option>
+                                      </select>
+                                </div>
+
+                                <div id="check"class="input-group">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">I have read and accept the terms of use.</label>
+                                    </div>
+                                </div>
+
+                                <div class="Send">
+                                    <button type="submit" value="submit" class="btn przycisk btn-block">Sign up</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="signInForm" class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                    <h3>Sign In Form</h3>
+                        <div class="shadow">
+                            <form>
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                  <input id="Username" type="text" class="form-control" name="username" placeholder="Username">
+                                </div>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon glyphicon-lock"></i></span>
+                                  <input id="Password" type="password" class="form-control" name="password" placeholder="Password">
+                                </div>
+
+                                <div class="row padding-buttons">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div id="check"class="input-group">
+                                            <div class="checkbox">
+                                                <label><input type="checkbox" value="">Remember me</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-right">
+                                        <div class="Send">
+                                            <button type="submit" value="submit" class="btn przycisk btn-block">Sign in</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="recoverForm"class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                    <h3>Recover form</h3>
+                        <div class="shadow">
+                            <form>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                  <input id="Email" type="email" class="form-control" name="email" placeholder="Enter your Email">
+                                </div>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                                  <input id="phone" type="tel" class="form-control" name="phone" placeholder="Enter your phone number">
+                                </div>
+
+                                <div class="row padding-buttons">
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="Send">
+                                            <button type="submit" class="btn przycisk btn-block">Send</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-right">
+                                        <div class="Send">
+                                            <button type="submit" class="btn przycisk btn-block" disabled>Done</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="sendEmail" class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                    <h3>Send Email</h3>
+                        <div class="shadow">
+                            <form>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                  <input id="Name" type="text" class="form-control" name="name" placeholder="Your Name">
+                                </div>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                  <input id="Email" type="email" class="form-control" name="email" placeholder="Your Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="13" placeholder="Type your message ..."></textarea>
+                                </div>
+
+                                <div id="check"class="input-group">
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value="">Send a copy to my Email.</label>
+                                    </div>
+                                </div>
+
+                                <div class="Send">
+                                    <button type="submit" value="submit" class="btn przycisk btn-block">Send Email</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                    <div id="subscribeForm" class="col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                    <h3>Subscribe form</h3>
+                        <div class="shadow">
+                            <form>
+
+                                <div class="input-group">
+                                  <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                  <input id="Email" type="email" class="form-control" name="email" placeholder="Enter your Email">
+                                </div>
+
+
+                                <div class="row padding-buttons">
+
+                                    <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                        <div class="Send">
+                                            <button type="submit" class="btn przycisk btn-block">Subscribe</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1">
+                                        <div class="Send">
+                                            <button type="submit" class="btn btn-block btn-danger">No, Thanks</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="logo col-lg-5 col-lg-offset-1 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                        <img src="images/logo.png" alt="Logo" class="img-responsive center-block">
+                        <img id="link" src="images/link.png" alt="Logo" class="img-responsive center-block">
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
